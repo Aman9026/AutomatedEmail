@@ -1,3 +1,4 @@
+```
 function sendEmails() {
   var sheet = SpreadsheetApp.getActiveSheet();
   var startRow = 2; // First row of data to process
@@ -18,3 +19,4 @@ function sendEmails() {
     MailApp.sendEmail(emailAddress, subject, message);
   }
 }
+```
